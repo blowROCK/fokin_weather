@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Blank Template",
+    "name": "weather_0.01",
     "slug": "fokin_weather",
     "privacy": "public",
     "sdkVersion": "36.0.0",
@@ -23,8 +23,13 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.bangusuk.kingbat",
+      "versionCode": 1
+    },
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "오픈 날씨 API를 통해서 위치 파악 후 날씨를 알려주는 날씨 앱."
   }
 }
